@@ -1,0 +1,27 @@
+{
+  "name": "eslint-plugin-id-match",
+  "version": "0.1.9",
+  "description": "react value vif plugin",
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin"
+  ],
+  "author": "hyn_copyright",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha tests --recursive",
+    "prepublish": "npm version patch"
+  },
+  "dependencies": {
+    "requireindex": "~1.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.1.0",
+    "mocha": "^7.2.0"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "license": "ISC"
+}
