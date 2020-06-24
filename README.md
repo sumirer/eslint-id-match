@@ -1,7 +1,65 @@
 # eslint-plugin-id-match
 
-hyn_copyright
+* Check the naming in the project and standardize the naming (camel-case)
+* Check the naming of functions and the variable names of functions and arrow functions
+```
+  reg = '^[a-z]+([A-Z][a-z]{0,})*$'
+```
+# example
+```javascript
+   
+     // good
+    function  handleTest(){
+       ...
+    }
 
+    // bad
+    function  HandleTest(){
+      ...
+    }
+ 
+  class Test{
+    constructor(){
+        this.state = {
+          // bad
+          Value:'',
+          // good
+          value:''
+        };
+        // bad
+        this.Test = ''
+    }
+
+    // good
+    handleTest(value){
+       ...
+    } 
+
+   // bad
+    HandleTest(value){
+       ...
+    } 
+
+  // bad
+    handleTest(Value){
+       ...
+    }
+  }
+```
+But the plug-in did not check the value function, arrow function and other undiscriminated objects
+```javascript
+  // right
+  const TestFn = function() {
+    ...
+  }
+   // right
+  const TestFn = React.createContext();
+  
+  // right
+  const TestFn = ()=>{
+    ...
+  }
+```
 ## Installation
 
 You'll first need to install [ESLint](http://eslint.org):
@@ -51,7 +109,8 @@ Then configure the rules you want to use under the rules section.
 
 * Fill in provided rules here
 
-
+#
+[![NPM Stats](https://nodei.co/npm/hyn-lib.png?downloads=true&downloadRank=true)](https://npmjs.org/package/hyn-lib/)
 
 
 
