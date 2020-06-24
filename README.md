@@ -110,7 +110,7 @@ Then configure the rules you want to use under the rules section.
 * Fill in provided rules here
 
 #
-[![NPM Stats](https://nodei.co/npm/hyn-lib.png?downloads=true&downloadRank=true)](https://npmjs.org/package/hyn-lib/)
+[![NPM Stats](https://nodei.co/npm/eslint-plugin-id-match.png?downloads=true&downloadRank=true)](https://npmjs.org/package/eslint-plugin-id-match/)
 
 
 
