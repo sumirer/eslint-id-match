@@ -77,7 +77,7 @@ $ npm install eslint-plugin-id-match --save-dev
 
 ## Usage
 
-Add `12` to the plugins section of your `.eslintrc` configuration file. You can omit the `eslint-plugin-` prefix:
+Add `id-match` to the plugins section of your `.eslintrc` configuration file. You can omit the `eslint-plugin-` prefix:
 
 ```json
 {

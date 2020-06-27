@@ -7,10 +7,11 @@
     "eslintplugin",
     "eslint-plugin"
   ],
-  "author": "hyn_copyright",
+  "author": "sumirer",
   "main": "lib/index.js",
   "scripts": {
-    "test": "mocha tests --recursive"
+    "test": "mocha tests --recursive",
+    "prepublish": "npm version patch"
   },
   "dependencies": {
     "requireindex": "~1.1.0"
