@@ -1,5 +1,6 @@
 # eslint-plugin-id-match
 
+## value-name-match
 * Check the naming in the project and standardize the naming (camel-case)
 * Check the naming of functions and the variable names of functions and arrow functions
 ```
@@ -60,6 +61,14 @@ But the plug-in did not check the value function, arrow function and other undis
     ...
   }
 ```
+
+## props-match
+ * check JSXAttribute  name match
+ 
+ 
+## arrow-function
+
+* check arrow function arguments eq
 ## Installation
 
 You'll first need to install [ESLint](http://eslint.org):
